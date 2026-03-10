@@ -12,6 +12,11 @@ Open CMD as administrator and run. This will install the wsl - linux
 ```bash
 wsl --install 
 ```
+Once installed, reboot the system, open CMD agin in Admin Mode and run the bellow command to install Ubuntu.
+```bash
+wsl --install Ubuntu
+```
+Set the user name and password for Ubuntu.
 
 ## Step 1A: Update ubuntu system and install python3 and pip
 After first install, you will be asked to set username and password for ubuntu
@@ -86,3 +91,4 @@ Open CMD and type `wsl` and hit enter.
 Go to home directory by typing `cd ~` and enter.
 
 Type `code .` to open the VS code
+
