@@ -78,3 +78,8 @@ python3 first_dag.py
 ```
 
 Go to the Airflow Webserver and access this dag under dags tab and trigger the tasks.
+
+## Note: To Open airflow again in VS code after you close the project
+Open CMD and type `wsl` and hit enter.
+Go to home directory by typing `cd ~` and enter.
+Type `code .` to open the VS code
