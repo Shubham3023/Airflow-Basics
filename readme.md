@@ -8,9 +8,11 @@
 
 [WSL Installation](https://learn.microsoft.com/en-us/windows/wsl/install)
 
+Open CMD as administrator and run. This will install the wsl - linux
 ```bash
 wsl --install 
 ```
+
 ## Step 1A: Update ubuntu system and install python3 and pip
 After first install, you will be asked to set username and password for ubuntu
 
@@ -82,4 +84,5 @@ Go to the Airflow Webserver and access this dag under dags tab and trigger the t
 ## Note: To Open airflow again in VS code after you close the project
 Open CMD and type `wsl` and hit enter.
 Go to home directory by typing `cd ~` and enter.
+
 Type `code .` to open the VS code
